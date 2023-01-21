@@ -1,0 +1,38 @@
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.div-inputs {
+  background-color: lightgray;
+  border: 1px solid #252525;
+  border-radius: 5px;
+  width: 320px;
+  height: 20px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input, button {
+  border-radius: 5px;
+  border: none;
+}
+
+.btn {
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+}
+
+.btn:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+p{
+  color: red;
+}
